@@ -1,0 +1,6 @@
+streamlit
+kafka-python
+pandas
+folium
+requests
+matplotlib
