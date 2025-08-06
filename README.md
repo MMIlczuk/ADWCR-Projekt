@@ -1,10 +1,5 @@
 # 🚲 Nextbike Warsaw – Monitoring i analiza dostępności rowerów w czasie rzeczywistym
 
-**Autor**: [Twoje Imię i Nazwisko]  
-**Rola**: Analityk danych / Data Analyst  
-**Typ projektu**: Portfolio – rekrutacja  
-**Technologie**: Python, Kafka, Streamlit, Docker, Folium, API REST, Pandas  
-
 ---
 
 ## 📌 Opis projektu
@@ -41,3 +36,16 @@ Przykładowy zrzut ekranu interfejsu:
 
 ## ⚙️ Architektura projektu
 
+
+- `producer.py` – pobiera dane z API i przesyła je do tematów Kafka: `nextbike-data` i `nextbike-data-bike`
+- `app.py` – konsument danych, interfejs mapowy i analiza
+- `docker-compose.yml` – definiuje środowisko wielokontenerowe (Streamlit + Kafka + Zookeeper)
+
+---
+
+## 🧠 Możliwości rozwoju
+
+🔄 Integracja z danymi GPS pojazdów relokacyjnych
+📈 Uczenie maszynowe do przewidywania zapotrzebowania rowerów
+🧭 Rekomendacje tras relokacji i priorytetów
+📊 Dashboard analityczny z metrykami operacyjnymi (średni czas stacjonowania, obłożenie stacji)
