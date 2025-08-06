@@ -24,13 +24,19 @@ Ten projekt prezentuje **system monitoringu i analizy danych w czasie rzeczywist
    Wyodrębnienie rowerów z poziomem baterii <10% – mogą wymagać interwencji serwisowej lub relokacji.  
    👉 Potencjalne zastosowanie: poprawa jakości usług i zadowolenia użytkowników.
 
+3. **Wykrywanie awarii**  
+   Wykrywanie rowerów które nie zostały przemieszczone przez dłużej niż 24h i tym samym oznaczanie rowerów jako potencjalne awarie.  
+   👉 Potencjalne zastosowanie: szybkie wykrywanie awarii.
+
 ---
 
 ## 🖼️ Demo aplikacji
 
-👉 [Wstaw link do hostowanej wersji Streamlit, jeśli posiadasz]  
 Przykładowy zrzut ekranu interfejsu:  
-![screenshot](screenshots/mapa_rowerow.png)
+![image](https://github.com/user-attachments/assets/e1264c2f-80ce-49ab-9df9-d61cc0aee4bf)
+
+![image](https://github.com/user-attachments/assets/dd98bf94-a7d6-4518-8b9b-45fed3f78f04)
+
 
 ---
 
@@ -45,7 +51,7 @@ Przykładowy zrzut ekranu interfejsu:
 
 ## 🧠 Możliwości rozwoju
 
-🔄 Integracja z danymi GPS pojazdów relokacyjnych
-📈 Uczenie maszynowe do przewidywania zapotrzebowania rowerów
-🧭 Rekomendacje tras relokacji i priorytetów
-📊 Dashboard analityczny z metrykami operacyjnymi (średni czas stacjonowania, obłożenie stacji)
+🔄 Integracja z danymi GPS pojazdów relokacyjnych.
+📈 Uczenie maszynowe do przewidywania zapotrzebowania rowerów.
+🧭 Rekomendacje tras relokacji i priorytetów.
+📊 Dashboard analityczny z metrykami operacyjnymi (średni czas stacjonowania, obłożenie stacji).
