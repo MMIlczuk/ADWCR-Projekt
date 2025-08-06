@@ -51,7 +51,7 @@ Przykładowy zrzut ekranu interfejsu:
 
 ## 🧠 Możliwości rozwoju
 
-🔄 Integracja z danymi GPS pojazdów relokacyjnych.
-📈 Uczenie maszynowe do przewidywania zapotrzebowania rowerów.
-🧭 Rekomendacje tras relokacji i priorytetów.
-📊 Dashboard analityczny z metrykami operacyjnymi (średni czas stacjonowania, obłożenie stacji).
+- 🔄 Integracja z danymi GPS pojazdów relokacyjnych.
+- 📈 Uczenie maszynowe do przewidywania zapotrzebowania rowerów.
+- 🧭 Rekomendacje tras relokacji i priorytetów.
+- 📊 Dashboard analityczny z metrykami operacyjnymi (średni czas stacjonowania, obłożenie stacji).
